@@ -79,6 +79,7 @@
     .headingfront{
         #about{
             text-align: center;
+            font-size: 3rem;
         }
         .para{
             text-align: center;
@@ -86,10 +87,11 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:600px) and (max-width:900px) {
     .headingfront{
         #about{
             text-align: center;
+            font-size: 3rem;
         }
         .para{
             text-align: center;
