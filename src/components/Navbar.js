@@ -47,7 +47,7 @@ function Navbar() {
                     <li ><a href="http://localhost:3000/north" >North</a></li>
                     <li ><a href="http://localhost:3000/NorthEast">NorthEast</a></li>
                     <li ><a href="http://localhost:3000/South">South</a></li>
-                    <li><a href="">Contact Us</a></li>
+                    <li><a href="http://localhost:3000/">Contact Us</a></li>
                 </ul>
             </div>
         </div>
