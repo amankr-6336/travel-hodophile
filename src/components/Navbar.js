@@ -3,11 +3,11 @@ import minilogo from "../assets/minilogo.png"
 import {BsEnvelope} from "react-icons/bs"
 import './Navbar.scss'
 import logo from '../assets/logot.png'
-import { useNavigate , Link } from 'react-router-dom';
+import {  Link } from 'react-router-dom';
 
 
 function Navbar() {
-     const navigate=useNavigate();
+     
   
     const[cross,setcross]=useState(false);
 
