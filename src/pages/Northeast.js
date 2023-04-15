@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import Slider from '../components/Slider';
 import './Northeast.scss'
-import manali from '../assets/manali.jpg'
-import shimla from '../assets/shimla.jpg'
+// import manali from '../assets/manali.jpg'
+// import shimla from '../assets/shimla.jpg'
 import kullu from '../assets/assam.jpg'
 import dal from '../assets/arunachal.jpg'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import Heading from '../components/Heading';
 import Right from '../components/Right';
 import Left from '../components/Left';
@@ -23,7 +23,7 @@ function NorthEast() {
         {url:'http://localhost:3000/sapp.jpg', title:'Arunachal Pradesh',description:"A destination for all seasons and all reasons"},
       ]
   
-      const navigate=useNavigate();
+      // const navigate=useNavigate();
 
   return (
     <div className="east">

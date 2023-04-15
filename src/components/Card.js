@@ -1,5 +1,4 @@
 import React from 'react'
-import ld from '.././assets/ld.jpg'
 import './Card.scss'
 import Slider from './Slider'
 

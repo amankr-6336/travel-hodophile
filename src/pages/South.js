@@ -1,12 +1,12 @@
 import React from 'react'
-import Card from '../components/Card';
+// import Card from '../components/Card';
 import Slider from '../components/Slider';
 import "./South.scss";
-import manali from '../assets/manali.jpg'
-import shimla from '../assets/shimla.jpg'
+// import manali from '../assets/manali.jpg'
+// import shimla from '../assets/shimla.jpg'
 import kullu from '../assets/ker.jpg'
 import dal from '../assets/pondi.jpg'
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 import Heading from '../components/Heading';
 import Right from '../components/Right';
 import Left from '../components/Left';
@@ -23,7 +23,7 @@ function South() {
         {url:'http://localhost:3000/sp.jpg', title:'Pondicherry',description:"A destination for all seasons and all reasons"},
       ]
   
-      const navigate=useNavigate();
+      // const navigate=useNavigate();
 
   return (
     <div className="south">

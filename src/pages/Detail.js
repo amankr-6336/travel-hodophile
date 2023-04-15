@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "../components/Card";
+// import Card from "../components/Card";
 import Slider from "../components/Slider";
 import "./Detail.scss";
-import manali from "../assets/manali.jpg";
-import shimla from "../assets/shimla.jpg";
+// import manali from "../assets/manali.jpg";
+// import shimla from "../assets/shimla.jpg";
 import kullu from "../assets/kullu.jpg";
 import dal from "../assets/dal.jpg";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import Heading from "../components/Heading";
 import Right from "../components/Right";
 import Left from "../components/Left";
@@ -38,7 +38,7 @@ function Detail() {
     },
   ];
 
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div className="north">

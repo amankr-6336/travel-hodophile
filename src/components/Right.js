@@ -1,5 +1,4 @@
 import React from 'react'
-import hp from '../assets/kullu.jpg'
 import './Right.scss'
 import {BsArrowRight} from 'react-icons/bs'
 import { useNavigate } from 'react-router-dom'

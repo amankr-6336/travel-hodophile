@@ -1,5 +1,4 @@
 import React from 'react'
-import hp from '../assets/kullu.jpg'
 import "./Left.scss"
 import {BsArrowLeft} from 'react-icons/bs'
 

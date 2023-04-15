@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './Slider.scss';
 import {AiOutlineLeft} from "react-icons/ai";
 import {AiOutlineRight} from "react-icons/ai";
-import {GoPrimitiveDot} from "react-icons/go"
 
 function Slider({slides}) {
     const[currentIndex,setCurrentIndex]=useState(0);
@@ -33,13 +32,13 @@ function Slider({slides}) {
         setCurrentIndex(newIndex);
     }
 
-    function goToSlide(slideIndex){
-      setCurrentIndex(slideIndex);
-    }
+    // function goToSlide(slideIndex){
+    //   setCurrentIndex(slideIndex);
+    // }
 
-    function handlechange(){
-      console.log(1);
-    }
+    // function handlechange(){
+    //   console.log(1);
+    // }
 
    
 
