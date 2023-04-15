@@ -1,0 +1,105 @@
+.northnorth{
+    width: 100vw;
+    height: fit-content;
+    border: 2px solid black;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+    .navcontainer{
+     width: 5vw;
+     height: 100vh;
+     z-index: 1;
+  
+    }
+
+    .northslidercontainer{
+        width:40vw;
+        height: 100vh;
+        // z-index: -1;
+       
+
+    }
+
+    .northrightcontainer{
+        max-height: 100vh;
+      width: 55vw;
+      overflow-y: scroll;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .northnorth{
+        height: fit-content;
+        flex-direction: column;
+        .navcontainer{
+            width: 100vw;
+            height: 10vh;
+        }
+        .northslidercontainer{
+            width: 100vw;
+            height: 50vh;
+           
+        }
+        .northrightcontainer{
+            width: 100vw;
+            max-height: fit-content;
+            overflow-y: auto;
+
+        }
+        
+    }
+}
+
+@media screen and (max-width:900px) {
+    .northnorth{
+        flex-direction: column;
+        .navcontainer{
+            width: 100vw;
+            height: 10vh;
+        }
+        .northslidercontainer{
+            width: 100vw;
+            height: 50vh;     
+        }
+        .northrightcontainer{
+            width: 100vw;
+            
+        }
+        
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .northnorth{
+        flex-direction: column;
+        .navcontainer{
+            width: 100vw;
+            height: 10vh;
+        }
+        .northslidercontainer{
+            width: 100vw;
+            height: 50vh;     
+        }
+        .northrightcontainer{
+            width: 100vw;
+        }
+    }
+}
+@media screen and (max-width:1600px) {
+    .northnorth{
+        flex-direction: column;
+        .navcontainer{
+            width: 100vw;
+            height: 10vh;
+        }
+        .northslidercontainer{
+            width: 100vw;
+            height: 50vh;     
+        }
+        .northrightcontainer{
+            width: 100vw;
+        }
+    }
+}
+

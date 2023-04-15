@@ -1,0 +1,126 @@
+.outerbox{
+   width: 100%;
+   height: 100%;
+  position: relative;
+  
+
+   .leftarrow{
+      position: absolute;
+      top: 50%;
+      transform: translate(0,-50%);
+      left: 32px;
+      font-size: 2rem;
+      color: white;
+      z-index: 1;
+      cursor: pointer;
+   }
+
+   .rightarrow{
+    position: absolute;
+    top: 50%;
+    transform: translate(0,-50%);
+    right: 32px;
+    font-size: 2rem;
+    color: white;
+    z-index: 1;
+    cursor: pointer;
+   }
+   .dot{
+    font-size: 1.5rem;  
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    color: white;
+    .dots{
+        margin: 5px 10px;
+    }
+   }
+
+   .innerbox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    
+    position: relative;
+    .im{
+      width: 100%;
+      height: 100%;
+    
+      object-fit: cover;
+      object-position: center;
+
+    
+    }
+
+   
+    .content{
+      padding: 20px;
+      width: 50%;
+      margin-top: 100px;
+      margin-left: 50px;
+     border: 2px solid black;
+     background-color: black;
+     opacity: 0.7;
+     border-radius: 5px;
+     position: absolute;
+    .placename{
+      border: 2px solid black;
+      font-size: 3rem;
+      color: white;
+      opacity: 1;
+
+    }
+
+    .aboutplace{
+      border: 2px solid black;
+      font-size: 1.5rem;
+      color: white;
+    }
+   }
+   }
+
+   .active-anim{
+    opacity: 1;
+   }
+
+   .fade{
+    animation: fade 2s ;
+   }
+
+   @keyframes fade {
+    from{
+      opacity: .4;
+    }
+    to{
+       opacity: 1;
+    }
+   }
+}
+
+
+@media screen and (max-width:600px) {
+  
+  .outerbox{
+    width: 100vw;
+   
+    .innerbox{
+      width: 100%;
+      left: 0px;
+      .content{
+        margin-top: 50px;
+        width: 70%;
+        .placename{
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+
+}
+
+

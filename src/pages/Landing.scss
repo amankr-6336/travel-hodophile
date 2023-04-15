@@ -1,0 +1,447 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+.landing{
+
+     width: 100vw;
+     height: 100vh;
+     overflow: hidden;
+
+     background-color:rgb(247, 241, 229);
+     background-size:cover;
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+    .containerlanding{
+        width: 70vw;
+        height: 90vh;
+       
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        flex-direction: column;
+        background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+         border: 1px solid rgba(255, 255, 255, 0.3);
+      
+
+        .landingquote{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+       
+            width: 100%;
+            height: fit-content;
+            padding: 0px;
+            margin: 0px;
+         
+            img{
+                padding: 0px;
+                margin: 0px;
+                width: 20%;
+                height: 40%;
+            }
+            #ok1{
+               margin: 0px ;
+               padding: 0px;
+
+            }
+            #ok2{
+               margin: 0px;
+               padding: 0px;
+               font-size: 4rem;
+               font-family: 'Oswald', sans-serif;
+            }
+        }
+
+        .centerlandingsection{
+      
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+            
+            .place{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+    
+
+                .zone{
+                    font-size: 1.6rem;
+                    font-family: 'Oswald', sans-serif;
+                   }
+
+            #place1{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+           
+            overflow: hidden;
+               img{
+                width: 100%;
+                height: 100%;
+                transition: all ease-in-out 0.5s;
+               }
+            
+            }
+
+
+            #place1:hover{
+                 
+                img{
+                    transform: scale(1.3);
+                    transition: ease-in-out;
+                    transition-duration: .5s;
+                }
+                
+            }
+
+            #place2{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+          
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    transition: all ease-in-out 0.5s;
+                   }
+                   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                   
+            }
+
+            #place2:hover{
+                 
+                img{
+                    transform: scale(1.3);
+                    transition: ease;
+                    transition-duration: .5s;
+                }
+                
+            }
+
+            #place3{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+      
+                overflow: hidden;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    transition: all ease-in-out 0.5s;
+                   }
+                   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+                   
+
+            }
+            #place3:hover{
+                 
+                img{
+                    transform: scale(1.3);
+                    transition: ease;
+                    transition-duration: .5s;
+                }
+                
+            }
+         }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+    .landing{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y:visible;
+
+        .containerlanding{
+
+            .landingquote{
+                
+                img{
+                    width: 50%;
+                    height: 40%;
+                }
+
+                #ok2{
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+
+            .centerlandingsection{
+                flex-direction: column;
+                gap: 25px;
+
+                .place{
+                    gap: 10px; 
+
+                    .zone{
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    #place1{
+                        width: 100px;
+                        height: 100px;
+                      
+                    }
+
+                    #place2{
+                        width: 100px;
+                        height: 100px;
+                    }
+
+                    #place3{
+                        width: 100px;
+                        height: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+   
+    .landing{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y:visible;
+
+        .containerlanding{
+          width: 90vw;
+            .landingquote{
+                
+                img{
+                    width: 50%;
+                    height: 50%;
+                }
+
+                #ok2{
+                    font-size: 3rem;
+                    text-align: center;
+                }
+            }
+
+            .centerlandingsection{
+                flex-direction: row;
+                gap: 25px;
+
+                .place{
+                    gap: 10px; 
+
+                    .zone{
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    #place1{
+                        width: 150px;
+                        height: 150px;
+                      
+                    }
+
+                    #place2{
+                        width: 150px;
+                        height: 150px;
+                    }
+
+                    #place3{
+                        width: 150px;
+                        height: 150px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width:900px) and (max-width:1100px){
+   
+    .landing{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y:visible;
+
+        .containerlanding{
+          width: 90vw;
+            .landingquote{
+                
+                img{
+                    width: 50%;
+                    height: 60%;
+                }
+
+                #ok2{
+                    font-size: 4rem;
+                    text-align: center;
+                }
+            }
+
+            .centerlandingsection{
+                flex-direction: row;
+                gap: 25px;
+
+                .place{
+                    gap: 10px; 
+
+                    .zone{
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    #place1{
+                        width: 200px;
+                        height: 200px;
+                      
+                    }
+
+                    #place2{
+                        width: 200px;
+                        height: 200px;
+                    }
+
+                    #place3{
+                        width: 200px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width:1100px) and (max-width:1450px){
+   
+    .landing{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y:visible;
+
+        .containerlanding{
+          width: 90vw;
+            .landingquote{
+                
+                img{
+                    width: 50%;
+                    height: 60%;
+                }
+
+                #ok2{
+                    font-size: 4rem;
+                    text-align: center;
+                }
+            }
+
+            .centerlandingsection{
+                flex-direction: row;
+                gap: 25px;
+
+                .place{
+                    gap: 10px; 
+
+                    .zone{
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    #place1{
+                        width: 250px;
+                        height: 250px;
+                      
+                    }
+
+                    #place2{
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                    #place3{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width:1450px) and (max-width:1550px){
+   
+    .landing{
+        width: 100vw;
+        min-height: 100vh;
+        overflow-y:visible;
+
+        .containerlanding{
+          width: 90vw;
+            .landingquote{
+                
+                img{
+                    width: 50%;
+                    height: 60%;
+                }
+
+                #ok2{
+                    font-size: 4rem;
+                    text-align: center;
+                }
+            }
+
+            .centerlandingsection{
+                flex-direction: row;
+                gap: 25px;
+
+                .place{
+                    gap: 10px; 
+
+                    .zone{
+                        padding: 0px;
+                        margin: 0px;
+                    }
+
+                    #place1{
+                        width: 250px;
+                        height: 250px;
+                      
+                    }
+
+                    #place2{
+                        width: 250px;
+                        height: 250px;
+                    }
+
+                    #place3{
+                        width: 250px;
+                        height: 250px;
+                    }
+                }
+            }
+        }
+    }
+
+}

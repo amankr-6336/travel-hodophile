@@ -1,0 +1,22 @@
+.north{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .navcontainer{
+     width: 10vw;
+  
+    }
+
+    .slidercontainer{
+        width:10vw;
+
+    }
+
+    .rightcontainer{
+      width: 60vw;
+    }
+}

@@ -1,0 +1,98 @@
+.headingfront{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    // border: 2px solid red;
+    background-color: rgba(247, 241, 229, 0.378);
+    .logo{
+        width: 300px;
+        height: 150px;
+        // border: 2px solid black;
+        margin: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .welcome{
+        font-size: 1.5rem;
+        // border: 2px solid black;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    #about{
+        font-size: 4.5rem;
+        // border: 2px solid black;
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+    .para{
+       font-size: 1.5rem;
+       margin-top: 20px;
+       margin-bottom: 50px;
+    }
+
+    .scroll{
+        cursor: pointer;
+        margin: 50px;
+        position: relative;
+      button{
+        cursor: pointer;
+        padding: 40px 10px;
+        border-radius: 50%;
+        border-style: dotted;
+        font-size: 1.5rem;
+        border-color:grey;
+        background-color:  rgba(247, 241, 229, 0.378);
+      }
+      .arrowdown{
+        font-size: 1.3rem;
+        position: absolute;
+        left: 50px;
+        bottom: 15px;
+        animation: upanddown 1s ease-in-out infinite ;
+
+        @keyframes upanddown {
+            0%{
+
+            }
+
+            50%{
+                transform: translateY(-10px);
+            }
+            100%{
+                transform: translateY(0px);
+            }
+        }
+      }
+
+    }
+}
+
+@media screen and (max-width:600px) {
+    .headingfront{
+        #about{
+            text-align: center;
+        }
+        .para{
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .headingfront{
+        #about{
+            text-align: center;
+        }
+        .para{
+            text-align: center;
+        }
+    }
+}

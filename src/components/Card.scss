@@ -1,0 +1,47 @@
+.Card{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    height: 310px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   
+    img{
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+
+        
+    }
+    .leftsidecard{
+        height: 100%;
+      
+        width: 40%;
+       background-color: rgb(248, 245, 245);
+        position: absolute;
+       top: 0px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       .location{
+        //  opacity: 0;
+        color:rgb(23, 2, 2);
+       
+         font-size: 2rem;
+       }
+
+
+    }
+}
+
+.Card:hover{
+    
+    .leftsidecard{
+        width: 0;
+        transition: ease-in-out;
+        transition-duration: 2s;
+        .location{
+            display: none;
+        }
+    }
+}

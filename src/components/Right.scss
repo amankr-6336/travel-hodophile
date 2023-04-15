@@ -1,0 +1,133 @@
+.right{
+    width: 100%;
+    height: 500px;
+    // border: 2px solid red;
+    .rightinner{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+
+      .text{
+        height: 100%;
+        // border: 2px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        .innertext{
+            width: 80%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+        .area{
+            color: gray;
+            font-size: 1.5rem;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        .state{
+            margin: 5px;
+            padding: 5px;
+            font-size: 3.5rem;
+            font-weight: bolder;
+
+        }
+
+        .discover{
+            cursor: pointer;
+            margin: 25px 5px ;
+            padding: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button{
+                cursor: pointer;
+                border: none;
+                text-decoration-style: dotted;
+                font-size: 1.5rem;
+                color: grey;
+                background-color: white;
+            }
+            button:hover{
+                color: black;
+               
+            }
+            #rightarrow{
+                padding: 0px 5px;
+                font-size: 1.5rem;
+                color: gray;
+                animation: rightandleft 1s ease-in-out  infinite ;
+
+                @keyframes rightandleft {
+                    0%{
+
+                    }
+                    50%{
+                        transform: translateX(10px);
+                    }
+
+                    100%{
+                        transform: translateX(0px);
+                    }
+                }
+            }
+            #rightarrow:hover{
+                color: black;
+            }
+        }
+    }
+
+
+      }
+
+      .pic{
+          flex: 1;
+          height: 100%;
+          img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+      }
+
+     
+    }
+}
+
+@media screen and (max-width:600px) {
+    .right{
+        height: 300px;
+        .rightinner{
+        .text{
+            .innertext{
+            .state{
+                font-size: 2rem;
+            }
+           }
+        }
+      }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .right{
+        height: 400px;
+        .rightinner{
+            .text{
+                .innertext{
+                .state{
+                    font-size: 2rem;
+                }
+               }
+            }
+    }
+   }
+}
