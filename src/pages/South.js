@@ -13,14 +13,18 @@ import Left from '../components/Left';
 import hfour from '../assets/tamil1.jpg'
 import ld from '../assets/kar.jpg'
 import Navbar from '../components/Navbar';
+import st from '../assets/st.jpg'
+import sk from '../assets/sk.jpg'
+import skt from '../assets/skt.jpg'
+import sp from '../assets/sp.jpg'
 
 function South() {
      
     const slides=[
-        {url:'http://localhost:3000/st.jpg', title:'Tamil Nadu' , description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/sk.jpg', title:'Kerala', description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/skt.jpg', title:'Karnataka',description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/sp.jpg', title:'Pondicherry',description:"A destination for all seasons and all reasons"},
+        {url:st, title:'Tamil Nadu' , description:"A destination for all seasons and all reasons"},
+        {url:sk, title:'Kerala', description:"A destination for all seasons and all reasons"},
+        {url:skt, title:'Karnataka',description:"A destination for all seasons and all reasons"},
+        {url:sp, title:'Pondicherry',description:"A destination for all seasons and all reasons"},
       ]
   
       // const navigate=useNavigate();

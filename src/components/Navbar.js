@@ -3,10 +3,11 @@ import minilogo from "../assets/minilogo.png"
 import {BsEnvelope} from "react-icons/bs"
 import './Navbar.scss'
 import logo from '../assets/logot.png'
+import { useNavigate , Link } from 'react-router-dom';
 
 
 function Navbar() {
-   
+     const navigate=useNavigate();
   
     const[cross,setcross]=useState(false);
 
@@ -43,11 +44,11 @@ function Navbar() {
             <div className="list">
           
                 <ul>
-                    <li ><a href="http://localhost:3000/">Home</a></li>
-                    <li ><a href="http://localhost:3000/north" >North</a></li>
-                    <li ><a href="http://localhost:3000/NorthEast">NorthEast</a></li>
-                    <li ><a href="http://localhost:3000/South">South</a></li>
-                    <li><a href="http://localhost:3000/">Contact Us</a></li>
+                    <li  > <Link className='link' to='/'>Home</Link> </li>
+                    <li ><Link className='link' to='/north'>North</Link></li>
+                    <li > <Link className='link' to='/NorthEast'>NorthEast</Link></li>
+                    <li > <Link className='link' to='/South'>South</Link></li>
+                    <li  > <Link className='link' to='/'>Contact Us</Link></li>
                 </ul>
             </div>
         </div>

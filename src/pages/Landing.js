@@ -18,7 +18,7 @@ function Landing() {
       </div> */}
         <div className="containerlanding">
             <div className="landingquote">
-               <img src={logo} alt="" />
+               <img  className='landinglogoo' src={logo} alt="" />
                <h4 id='ok1'>Welcome to Hodophile</h4>
                <h1 id='ok2'>Find your perfect destination</h1>
             </div>

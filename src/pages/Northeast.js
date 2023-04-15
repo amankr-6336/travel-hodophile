@@ -2,8 +2,6 @@ import React from 'react'
 // import Card from '../components/Card';
 import Slider from '../components/Slider';
 import './Northeast.scss'
-// import manali from '../assets/manali.jpg'
-// import shimla from '../assets/shimla.jpg'
 import kullu from '../assets/assam.jpg'
 import dal from '../assets/arunachal.jpg'
 // import { useNavigate } from 'react-router-dom';
@@ -13,14 +11,18 @@ import Left from '../components/Left';
 import hfour from '../assets/sikkim.jpg'
 import ld from '../assets/meghalaya.jpg'
 import Navbar from '../components/Navbar';
+import ss from '../assets/ss.jpg'
+import sas from '../assets/sas.jpg'
+import smg from '../assets/smg.jpg'
+import sapp from '../assets/sapp.jpg'
 
 function NorthEast() {
      
     const slides=[
-        {url:'http://localhost:3000/ss.jpg', title:'Sikkim' , description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/sas.jpg', title:'Assam', description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/smg.jpg', title:'Meghalaya',description:"A destination for all seasons and all reasons"},
-        {url:'http://localhost:3000/sapp.jpg', title:'Arunachal Pradesh',description:"A destination for all seasons and all reasons"},
+        {url:ss, title:'Sikkim' , description:"A destination for all seasons and all reasons"},
+        {url:sas, title:'Assam', description:"A destination for all seasons and all reasons"},
+        {url:smg, title:'Meghalaya',description:"A destination for all seasons and all reasons"},
+        {url:sapp, title:'Arunachal Pradesh',description:"A destination for all seasons and all reasons"},
       ]
   
       // const navigate=useNavigate();

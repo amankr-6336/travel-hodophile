@@ -158,7 +158,7 @@
     }
 
     .outernavbar{
-     
+      
        width: 30%;
        height: 100%;
        display: none;
@@ -195,15 +195,21 @@
             gap: 30px;
             li{
                 list-style: none;
-                a{
+               
+                .link{
                     text-decoration: none;
                     font-size: 1.5rem;
                     color: black;
                     font-weight: bolder;
                 }
-                a:hover{
-                   transform: scale(1.1);
+                .link:hover{
+                    background-color: black;
+                    color: #F6F1E9;
+                    padding: 6px 10px;
+                    border-radius: 20px;
+
                 }
+               
             }
            }
        }
@@ -248,18 +254,21 @@
              gap: 30px;
              li{
                  list-style: none;
-                 a{
-                     text-decoration: none;
-                     font-size: 1.5rem;
-                     color:black;
-                     font-weight: bolder;
-                 }
-                 a:hover{
-                    color:#F6F1E9;
-                    padding: 5px 10px;
-                    background-color: black;
-                    border-radius: 20px;
-                 }
+                 
+                    .link{
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                        color: black;
+                        font-weight: bolder;
+                    }
+                    .link:hover{
+                        background-color: black;
+                        color: #F6F1E9;
+                        padding: 6px 10px;
+                        border-radius: 20px;
+
+                    }
+                  
              }
             }
         }

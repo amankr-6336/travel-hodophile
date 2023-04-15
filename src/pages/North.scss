@@ -5,6 +5,7 @@
     display: flex;
     justify-content:flex-start;
     align-items: center;
+    flex-direction: row;
 
     .navcontainer{
      width: 5vw;
@@ -51,7 +52,7 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (min-width:600px) and (max-width:900px) {
     .northnorth{
         flex-direction: column;
         .navcontainer{
@@ -70,7 +71,7 @@
     }
 }
 
-@media screen and (max-width:1200px) {
+@media screen and (min-width:900px) and (max-width:1200px) {
     .northnorth{
         flex-direction: column;
         .navcontainer{
@@ -86,7 +87,7 @@
         }
     }
 }
-@media screen and (max-width:1600px) {
+@media screen and (min-width:1200px) and (max-width:1600px) {
     .northnorth{
         flex-direction: column;
         .navcontainer{
@@ -100,6 +101,11 @@
         .northrightcontainer{
             width: 100vw;
         }
+    }
+}
+@media screen and (min-width:1600px) {
+    .northnorth{
+        flex-direction: row;
     }
 }
 

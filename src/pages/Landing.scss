@@ -19,9 +19,9 @@
      align-items: center;
 
     .containerlanding{
-        width: 70vw;
-        height: 90vh;
-       
+        width: 70%;
+        height: 90%;
+        border: 10px solid red;
         display: flex;
         justify-content:space-around;
         align-items: center;
@@ -39,17 +39,18 @@
             justify-content: center;
             align-items: center;
             flex-direction: column;
-       
-            width: 100%;
+            border: 2px solid red;
+            width: 80%;
+            height: 20%;
             height: fit-content;
             padding: 0px;
             margin: 0px;
          
-            img{
+            .landinglogoo{
                 padding: 0px;
                 margin: 0px;
-                width: 20%;
-                height: 40%;
+                width: 40%;
+                height: 50%;
             }
             #ok1{
                margin: 0px ;
@@ -59,13 +60,15 @@
             #ok2{
                margin: 0px;
                padding: 0px;
-               font-size: 4rem;
+               font-size: 2rem;
                font-family: 'Oswald', sans-serif;
             }
         }
 
         .centerlandingsection{
-      
+            border: 2px solid red;
+            width: 100%;
+            height: 80%;
             display: flex;
             justify-content: center;
             align-items: center;
